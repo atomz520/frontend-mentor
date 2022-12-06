@@ -12,7 +12,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Home from './pages/Home';
-import InteractiveRatingComponent from './challenges/InteractiveRatingComponent';
+import InteractiveRatingComponent from './challenges/interactive-rating-component/InteractiveRatingComponent';
 
 const router = createBrowserRouter([
   {
