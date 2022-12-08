@@ -4,6 +4,8 @@ import { ChakraProvider, Button, Card, CardBody, Container, Grid, Heading, Text 
 import { defineStyle, defineStyleConfig } from '@chakra-ui/react'
 import { extendTheme } from '@chakra-ui/react'
 
+import { mode } from "@chakra-ui/theme-tools";
+
 import WebFont from 'webfontloader'
 
 import star from './icon-star.svg'
@@ -28,6 +30,18 @@ export const buttonTheme = defineStyleConfig({
 })
 
 export const theme = extendTheme({
+  styles: {
+    global: {
+      'html, body': {
+        background: 'veryDarkBlue',
+        color: 'gray.600',
+        lineHeight: 'tall',
+      },
+      a: {
+        color: 'teal.500',
+      },
+    },
+  },
   colors: {
     orange: 'hsl(25, 97%, 53%)',
     white: 'hsl(0, 0%, 100%)',
