@@ -90,7 +90,6 @@ const InteractiveRatingComponent = () => {
         </Card>
       </Grid>
     </ChakraProvider>
-    
   );
 };
 
