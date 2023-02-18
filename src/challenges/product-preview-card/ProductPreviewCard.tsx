@@ -4,7 +4,7 @@ import cartIcon from "./icon-cart.svg"
 
 export const ProductPreviewCard = () => {
   return (
-    <div className={ProductPreviewCardCSS.body}>
+    <main className={ProductPreviewCardCSS.body}>
       <div className={ProductPreviewCardCSS.container}>
         <div className={ProductPreviewCardCSS.cardLeft}>
         </div>
@@ -19,11 +19,11 @@ export const ProductPreviewCard = () => {
             <p className={ProductPreviewCardCSS.originalPrice}>$169.99</p>
           </div>
           <button className={ProductPreviewCardCSS.addCartBtn}>
-            <img src={cartIcon}/>
+            <img src={cartIcon} alt="cart icon"/>
             Add to Cart
           </button>
         </div>
       </div>
-    </div>
+    </main>
   )
 }
