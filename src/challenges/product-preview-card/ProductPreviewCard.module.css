@@ -1,27 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
 
-* {
+/* * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
+} */
 
-h1, h2, h3, h4, h5, h6 {
+.heading {
   color: #1C232B;
   font-family: 'Fraunces', serif;
 }
 
-h1 {
+.h1 {
   font-size: 2.5em;
   line-height: 1em;
 }
 
-p {
+.paragraph {
   letter-spacing: 0.04 em;
   line-height: 1.5em;
 }
 
-body {
+.body {
   background-color: hsl(30, 38%, 92%);
   height:100vh;
   display: grid;
@@ -42,18 +42,18 @@ body {
   grid-template-columns: 50% 50%;
 }
 
-.card-left {
+.cardLeft {
   height: 100%;
   background-image: url(./image-product-desktop.jpg);
   background-size: cover;
 }
 
-.card-right {
+.cardRight {
   display: grid;
   margin: 2em;
 }
 
-.product-category {
+.productCategory {
   letter-spacing: 0.4em;
 }
 
@@ -66,13 +66,13 @@ body {
   color: #3D8168;
 }
 
-.original-price {
+.originalPrice {
   text-decoration: line-through;
   margin-top: 0.5em;
   margin-left: 1.5em;
 }
 
-.add-cart-btn {
+.addCartBtn {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   letter-spacing: 0.04em;
@@ -89,6 +89,10 @@ body {
   gap: 1em;
 }
 
-.add-cart-btn:hover {
+.addCartBtn:hover {
+  background-color: #5cb997;
+}
+
+.addCartBtn:active {
   background-color: #1A4032;
 }
