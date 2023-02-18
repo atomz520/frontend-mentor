@@ -13,6 +13,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Home from './pages/Home';
 import InteractiveRatingComponent from './challenges/interactive-rating-component/InteractiveRatingComponent';
+import { ProductPreviewCard } from './challenges/product-preview-card/ProductPreviewCard';
 
 const router = createBrowserRouter([
   {
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
   {
     path: "/interactive-rating-component",
     element: <InteractiveRatingComponent />,
+  },
+  {
+    path: "/product-preview-card",
+    element: <ProductPreviewCard />,
   },
 ]);
 

@@ -47,6 +47,7 @@
     ]
   },
   "devDependencies": {
-    "@types/webfontloader": "^1.6.35"
+    "@types/webfontloader": "^1.6.35",
+    "tailwindcss": "^3.2.7"
   }
 }
