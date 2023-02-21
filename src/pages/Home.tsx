@@ -8,6 +8,7 @@ const Home = () => {
       <ul className="list-none my-5">
         <li><Link to='/interactive-rating-component'>Interactive Rating Component</Link></li>
         <li><Link to='/product-preview-card'>Product Preview Card</Link></li>
+        <li><Link to='/skilled-elearning-landing-page'>Skilled E-Learning Landing Page</Link></li>
       </ul>
     </main>
   )

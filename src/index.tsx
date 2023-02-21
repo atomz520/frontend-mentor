@@ -14,6 +14,7 @@ import reportWebVitals from './reportWebVitals';
 import Home from './pages/Home';
 import InteractiveRatingComponent from './challenges/interactive-rating-component/InteractiveRatingComponent';
 import { ProductPreviewCard } from './challenges/product-preview-card/ProductPreviewCard';
+import SkilledElearningLandingPage from './challenges/skilled-elearning-landing-page/SkilledElearningLandingPage';
 
 const router = createBrowserRouter([
   {
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
   {
     path: "/product-preview-card",
     element: <ProductPreviewCard />,
+  },
+  {
+    path: "/skilled-elearning-landing-page",
+    element: <SkilledElearningLandingPage />,
   },
 ]);
 
